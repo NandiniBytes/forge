@@ -1,0 +1,27 @@
+# A standard .gitignore for Python projects to keep the repo clean.
+
+# Virtual Environment
+venv/
+*.venv
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebook checkpoints
+.ipynb_checkpoints
